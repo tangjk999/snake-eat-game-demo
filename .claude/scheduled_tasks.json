@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "3cb28667",
+      "cron": "* * * * *",
+      "prompt": "请在 /Users/jacktom/Learning/AI/snake-eat-game-demo 目录下执行以下操作：\n1. 运行 `gh issue list` 查看所有 open 的 issue\n2. 如果有新的 open issue，列出它们并总结每个 issue 的标题和内容\n3. 如果没有新 issue，输出 \"No new open issues\"\n\n请只报告发现的内容，不要自行处理 issue。",
+      "createdAt": 1775406787869,
+      "recurring": true
+    }
+  ]
+}
