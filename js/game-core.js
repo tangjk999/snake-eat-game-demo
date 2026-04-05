@@ -1,7 +1,7 @@
 // ============================================================
 // 游戏核心模块
 // ============================================================
-const GameCore = {
+var GameCore = {
   State: { START: 'start', PLAYING: 'playing', PAUSED: 'paused', GAME_OVER: 'game_over' },
   GRID_SIZE: 18,
   CELL_COUNT: 20,
@@ -24,7 +24,8 @@ const GameCore = {
     speed: { active: false, timer: 0, duration: 5000 },
     slow: { active: false, timer: 0, duration: 6000 },
     ghost: { active: false, timer: 0, duration: 4000 },
-    magnet: { active: false, timer: 0, duration: 5000 }
+    magnet: { active: false, timer: 0, duration: 5000 },
+    life: { active: false, timer: 0, duration: 0 }
   },
 
   achievements: [

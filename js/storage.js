@@ -1,7 +1,7 @@
 // ============================================================
 // 存储管理模块
 // ============================================================
-const Storage = {
+var Storage = {
   KEYS: {
     HIGH_SCORE: 'snake_evo_high_score',
     ACHIEVEMENTS: 'snake_evo_achievements',
