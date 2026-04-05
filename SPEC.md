@@ -123,9 +123,19 @@
 ## 文件结构
 ```
 snake-eat-game-demo/
-├── index.html      # 主入口，所有模块内联
-├── SPEC.md         # 本规格文档
-└── .git/           # Git版本控制
+├── index.html         # 主入口
+├── SPEC.md           # 本规格文档
+├── README.md         # 项目说明
+├── js/
+│   ├── storage.js    # 存储管理模块
+│   ├── audio.js      # 音频管理模块
+│   ├── particle.js   # 粒子系统模块
+│   ├── game-core.js  # 游戏核心模块
+│   ├── snake.js      # 蛇逻辑模块
+│   ├── renderer.js   # 渲染器模块
+│   ├── input.js      # 输入处理模块
+│   └── main.js       # 主入口模块
+└── .git/             # Git版本控制
 ```
 
 ## 验收标准
