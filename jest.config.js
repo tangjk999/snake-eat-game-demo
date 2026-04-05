@@ -6,6 +6,6 @@ module.exports = {
     '!js/main.js'
   ],
   testMatch: [
-    '**/tests/**/*.test.js'
+    '**/tests/all.test.js'
   ]
 };
