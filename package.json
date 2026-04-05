@@ -1,0 +1,13 @@
+{
+  "name": "snake-game-evolution",
+  "version": "1.0.0",
+  "description": "An enhanced snake game with multiple game modes, power-up system, and achievement system",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
